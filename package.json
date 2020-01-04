@@ -8,7 +8,7 @@
     "url": "git+https://github.com/QuellxCode/EVV-Back-end.git"
   },
   "scripts": {
-    "start": "node index.js", // you need to add this line
+    "start": "node index.js",
     "test": "node index.js"
   },
   "author": "",
