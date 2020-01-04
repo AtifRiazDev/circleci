@@ -3,29 +3,19 @@
   "version": "1.0.0",
   "description": "This will contain all the backend code for EVV ap",
   "main": "index.js",
-  "scripts": {
-    "build": "npm run clean && babel app -d build",
-    "clean": "rm -rf build && mkdir build",
-    "start": "nodemon",
-    "test": "NODE_ENV=test mocha --recursive --reporter spec --compilers js:babel-register tests",
-    "lint": "eslint app",
-    "test:watch": "nodemon --exec 'npm run test' tests",
-    "coverage": "NODE_ENV=test babel-node ./node_modules/.bin/isparta cover _mocha -- --recursive --reporter spec --compilers js:babel-register tests",
-    "validate": "npm run test && npm outdated --depth 0"
-  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/QuellxCode/EVV-Back-end.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/QuellxCode/EVV-Back-end/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/QuellxCode/EVV-Back-end#readme",
   "dependencies": {
+    "bcrypt": "^3.0.4",
     "body-parser": "^1.19.0",
-    "config": "^3.0.1",
-    "cors": "^2.8.5",
+    "config": "^3.0.1"
   }
 }
