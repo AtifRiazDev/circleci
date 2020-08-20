@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/QuellxCode/EVV-Back-end#readme",
   "dependencies": {
-    "bcrypt": "^3.0.4",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "config": "^3.0.1"
   }
